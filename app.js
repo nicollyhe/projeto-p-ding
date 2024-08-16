@@ -8,7 +8,7 @@ options.forEach(option => {
       result.textContent = 'Correto!';
       result.style.color = 'green';
     } else {
-      result.textContent = 'Incorreto. A resposta correta é Paris.';
+      result.textContent = 'Incorreto.';
       result.style.color = 'red';
     }
   });
