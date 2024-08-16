@@ -1,4 +1,4 @@
-const correctAnswer = 'Paris';
+const correctAnswer = 'Madri';
 const options = document.querySelectorAll('.option');
 const result = document.getElementById('result');
 
@@ -9,6 +9,7 @@ options.forEach(option => {
       result.style.color = 'green';
     } else {
       result.textContent = 'Incorreto.';
+      result.textContent = 'Incorreto. A resposta correta é Madri.';
       result.style.color = 'red';
     }
   });
